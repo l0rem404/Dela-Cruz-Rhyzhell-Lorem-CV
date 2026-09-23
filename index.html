@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rhyzhell Lorem Dela Cruz — Curriculum Vitae</title>
+  <meta name="description" content="Curriculum Vitae of Rhyzhell Lorem Dela Cruz — Full-Stack Developer, Applied AI/ML, and Web3 Architect.">
+  
+  <!-- Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            canvas: '#f7f5f0',
+            panel: '#ffffff',
+            panelalt: '#f1ede4',
+            oxblood: '#8b2b2b',
+            charcoal: '#141412',
+            slate: '#484640',
+            faint: '#78756d',
+            hairline: '#ded8cd'
+          },
+          fontFamily: {
+            serif: ['Newsreader', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace']
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="min-h-screen text-charcoal">
+
+  <!-- Scroll Progress Indicator -->
+  <div class="scroll-indicator" aria-hidden="true"></div>
+
+  <!-- Main Grid Framework -->
+  <div class="max-w-7xl mx-auto px-5 sm:px-8 py-10 lg:py-16">
+    <div class="lg:grid lg:grid-cols-12 lg:gap-12 xl:gap-16">
+
+      <!-- LEFT COLUMN: Sticky Dossier Profile (lg:col-span-4) -->
+      <aside class="lg:col-span-4 xl:col-span-4 mb-12 lg:mb-0">
+        <div class="lg:sticky lg:top-8 space-y-8">
+          
+          <!-- Identity Card -->
+          <div class="fine-border bg-panel p-6 sm:p-7 space-y-6">
+            
+            <div class="flex items-start justify-between gap-4">
+              <!-- Portrait Frame -->
+              <div class="portrait-container w-28 h-36 flex-shrink-0">
+                <img 
+                  src="assets/photo.jpg" 
+                  alt="Rhyzhell Lorem Dela Cruz" 
+                  class="portrait-img w-full h-full object-cover object-top"
+                  width="112"
+                  height="144"
+                >
+              </div>
+
+              <!-- Status & Meta -->
+              <div class="space-y-3 flex-1 text-right sm:text-left">
+                <div class="inline-flex items-center gap-2 px-2.5 py-1 bg-panelalt border border-hairline text-[11px] font-medium tracking-wide uppercase text-slate rounded-sm">
+                  <span class="status-dot"></span>
+                  <span>Available for Roles</span>
+                </div>
+                <div class="text-[12px] font-mono text-faint">
+                  Software Developer<br><br>IT Operations & Technical Support<br><br>Lingayen, Pangasinan
+                </div>
+              </div>
+            </div>
+
+            <!-- Name & Titles -->
+            <div class="pt-2 border-t border-hairline">
+              <h1 class="font-serif text-3xl sm:text-[2.2rem] font-bold tracking-tight text-charcoal leading-none mb-2">
+                Rhyzhell Lorem<br>Dela Cruz
+              </h1>
+              <p class="text-[13px] font-medium uppercase tracking-wider text-oxblood">
+                BS Information Technology
+              </p>
+              <p class="text-[13px] text-faint">
+                Major in Computer Security
+              </p>
+            </div>
+
+            <!-- Quick Communication & External Links -->
+            <div class="pt-4 border-t border-hairline space-y-2.5 text-[13px]">
+              <div class="flex items-center justify-between">
+                <span class="font-mono text-faint text-xs">EMAIL</span>
+                <button 
+                  data-copy="rhyzhelllorem.delacruz@gmail.com" 
+                  class="font-medium text-slate hover:text-oxblood transition-colors inline-flex items-center gap-1.5"
+                  title="Click to copy email address"
+                >
+                  <span>rhyzhelllorem.delacruz...</span>
+                  <svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+                </button>
+              </div>
+
+              <div class="flex items-center justify-between">
+                <span class="font-mono text-faint text-xs">PHONE</span>
+                <button 
+                  data-copy="+639694937171" 
+                  class="font-medium text-slate hover:text-oxblood transition-colors inline-flex items-center gap-1.5"
+                  title="Click to copy phone number"
+                >
+                  <span>+63 969 493 7171</span>
+                  <svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+                </button>
+              </div>
+
+              <div class="flex items-center justify-between">
+                <span class="font-mono text-faint text-xs">LINKEDIN</span>
+                <a 
+                  href="https://linkedin.com/in/rhyzhelldc" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  class="font-medium text-slate hover:text-oxblood transition-colors inline-flex items-center gap-1"
+                >
+                  <span>linkedin.com/in/rhyzhelldc</span>
+                  <span class="text-xs">↗</span>
+                </a>
+              </div>
+
+              <div class="flex items-center justify-between">
+                <span class="font-mono text-faint text-xs">GITHUB</span>
+                <a 
+                  href="https://github.com/l0rem404" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  class="font-medium text-slate hover:text-oxblood transition-colors inline-flex items-center gap-1"
+                >
+                  <span>github.com/l0rem404</span>
+                  <span class="text-xs">↗</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Print / Utility Button -->
+            <div class="pt-4 border-t border-hairline no-print">
+              <button 
+                id="print-cv"
+                class="w-full py-2.5 px-4 bg-charcoal hover:bg-oxblood text-white font-medium text-xs tracking-wider uppercase transition-colors flex items-center justify-center gap-2 rounded-sm"
+              >
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"/></svg>
+                <span>Print / Save as PDF</span>
+              </button>
+            </div>
+
+          </div>
+
+          <!-- Quick Navigation Tracker (Desktop) -->
+          <nav class="hidden lg:block fine-border bg-panel p-6 nav-tracker space-y-1">
+            <div class="font-mono text-xs uppercase tracking-widest text-faint mb-3">Index</div>
+            <a href="#summary" class="active">01. Professional Summary</a>
+            <a href="#impact">02. Verified Impact Metrics</a>
+            <a href="#skills">03. Technical Matrix</a>
+            <a href="#projects">04. Selected Architecture & Projects</a>
+            <a href="#education">05. Education & Honors</a>
+          </nav>
+
+        </div>
+      </aside>
+
+      <!-- RIGHT COLUMN: Deep Engineering Dossier (lg:col-span-8) -->
+      <div class="lg:col-span-8 xl:col-span-8 space-y-14 sm:space-y-16">
+
+        <!-- 01. Professional Summary -->
+        <section id="summary" class="space-y-6">
+          <div class="flex items-center justify-between border-b border-hairline pb-2.5">
+            <span class="font-mono text-xs font-semibold uppercase tracking-widest text-oxblood">01 / Dossier</span>
+            <span class="text-xs text-faint font-mono">Curriculum Vitae</span>
+          </div>
+
+          <div class="bg-panel fine-border p-6 sm:p-8 relative">
+            <blockquote class="font-serif text-xl sm:text-2xl text-charcoal leading-relaxed font-normal">
+              "4th-year BS Information Technology student with a dual passion for engineering data-driven solutions and providing hands-on IT support. Combines expertise in building applied machine learning pipelines and Web3 applications (Python, MERN stack, Solidity) with strong technical troubleshooting skills to diagnose, isolate, and resolve critical hardware and software system errors."
+            </blockquote>
+          </div>
+        </section>
+
+        <!-- 02. Verified Impact Metrics -->
+        <section id="impact" class="space-y-6">
+          <div class="flex items-center justify-between border-b border-hairline pb-2.5">
+            <span class="font-mono text-xs font-semibold uppercase tracking-widest text-oxblood">02 / Engineering Milestones</span>
+            <span class="text-xs text-faint font-mono">Performance & Awards</span>
+          </div>
+
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+            <div class="stat-box">
+              <div class="font-serif text-3xl sm:text-4xl font-bold text-charcoal">96%</div>
+              <div class="text-xs font-semibold text-oxblood uppercase tracking-wider mt-1">EfficientNetV2</div>
+              <div class="text-[11px] text-faint mt-1 leading-tight">2-Tiered Computer Vision Pipeline for Environmental Reporting</div>
+            </div>
+
+            <div class="stat-box">
+              <div class="font-serif text-3xl sm:text-4xl font-bold text-charcoal">91%</div>
+              <div class="text-xs font-semibold text-oxblood uppercase tracking-wider mt-1">Marine Catch</div>
+              <div class="text-[11px] text-faint mt-1 leading-tight">Harvest forecasting accuracy for coastal routes</div>
+            </div>
+
+            <div class="stat-box">
+              <div class="font-serif text-3xl sm:text-4xl font-bold text-charcoal">140+</div>
+              <div class="text-xs font-semibold text-oxblood uppercase tracking-wider mt-1">Commodities</div>
+              <div class="text-[11px] text-faint mt-1 leading-tight">Farmgate price prediction engine (R²=0.81)</div>
+            </div>
+
+            <div class="stat-box">
+              <div class="font-serif text-3xl sm:text-4xl font-bold text-charcoal">2×</div>
+              <div class="text-xs font-semibold text-oxblood uppercase tracking-wider mt-1">CITE Awards</div>
+              <div class="text-[11px] text-faint mt-1 leading-tight">Best Application & Web Development 2025</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 03. Technical Matrix -->
+        <section id="skills" class="space-y-6">
+          <div class="flex items-center justify-between border-b border-hairline pb-2.5">
+            <span class="font-mono text-xs font-semibold uppercase tracking-widest text-oxblood">03 / Capability Matrix</span>
+            <span class="text-xs text-faint font-mono">Technical Specifications</span>
+          </div>
+
+          <div class="bg-panel fine-border divide-y divide-hairline">
+            
+            <!-- Category 1: Languages -->
+            <div class="p-5 sm:p-6 sm:grid sm:grid-cols-12 sm:gap-6 items-baseline">
+              <div class="sm:col-span-4 mb-2 sm:mb-0">
+                <span class="font-mono text-xs font-semibold uppercase tracking-wider text-slate">Programming Languages</span>
+              </div>
+              <div class="sm:col-span-8 flex flex-wrap gap-2">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Kotlin</span>
+                <span class="tech-tag">SQL</span>
+                <span class="tech-tag">Solidity</span>
+                <span class="tech-tag">PHP</span>
+              </div>
+            </div>
+
+            <!-- Category 2: AI & ML -->
+            <div class="p-5 sm:p-6 sm:grid sm:grid-cols-12 sm:gap-6 items-baseline">
+              <div class="sm:col-span-4 mb-2 sm:mb-0">
+                <span class="font-mono text-xs font-semibold uppercase tracking-wider text-slate">AI &amp; Machine Learning</span>
+              </div>
+              <div class="sm:col-span-8 flex flex-wrap gap-2">
+                <span class="tech-tag">Scikit-learn</span>
+                <span class="tech-tag">XGBoost</span>
+                <span class="tech-tag">SARIMAX</span>
+                <span class="tech-tag">HistGradientBoosting</span>
+                <span class="tech-tag">EfficientNetV2</span>
+                <span class="tech-tag">BioCLIP</span>
+                <span class="tech-tag">Computer Vision</span>
+              </div>
+            </div>
+
+            <!-- Category 3: Frameworks & Web3 -->
+            <div class="p-5 sm:p-6 sm:grid sm:grid-cols-12 sm:gap-6 items-baseline">
+              <div class="sm:col-span-4 mb-2 sm:mb-0">
+                <span class="font-mono text-xs font-semibold uppercase tracking-wider text-slate">Frameworks &amp; Web3</span>
+              </div>
+              <div class="sm:col-span-8 flex flex-wrap gap-2">
+                <span class="tech-tag">MERN Stack</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">React.js</span>
+                <span class="tech-tag">Express.js</span>
+                <span class="tech-tag">Smart Contracts (Solidity)</span>
+                <span class="tech-tag">EVM Workflows (Ganache, MetaMask)</span>
+                <span class="tech-tag">Layer-2 ERC-20</span>
+              </div>
+            </div>
+
+            <!-- Category 4: IT Systems & Support -->
+            <div class="p-5 sm:p-6 sm:grid sm:grid-cols-12 sm:gap-6 items-baseline">
+              <div class="sm:col-span-4 mb-2 sm:mb-0">
+                <span class="font-mono text-xs font-semibold uppercase tracking-wider text-slate">Systems &amp; IT Support</span>
+              </div>
+              <div class="sm:col-span-8 flex flex-wrap gap-2">
+                <span class="tech-tag">Hardware &amp; Software Troubleshooting</span>
+                <span class="tech-tag">Desktop Support</span>
+                <span class="tech-tag">MongoDB</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">Git / GitHub</span>
+                <span class="tech-tag">VS Code</span>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- 04. Selected Architecture & Projects -->
+        <section id="projects" class="space-y-6">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between border-b border-hairline pb-2.5 gap-4">
+            <div>
+              <span class="font-mono text-xs font-semibold uppercase tracking-widest text-oxblood">04 / Portfolio</span>
+              <h2 class="font-serif text-2xl font-bold text-charcoal">Selected Systems &amp; Projects</h2>
+            </div>
+            
+            <!-- Category Filter Pills -->
+            <div class="flex flex-wrap gap-1.5 filter-bar no-print">
+              <button class="filter-btn active" data-filter="all">All</button>
+              <button class="filter-btn" data-filter="aiml">AI / ML</button>
+              <button class="filter-btn" data-filter="web3">Web3</button>
+              <button class="filter-btn" data-filter="systems">Full-Stack</button>
+            </div>
+          </div>
+
+          <div class="space-y-6">
+
+            <!-- Project 1: EcoHub -->
+            <article class="project-card p-6 sm:p-7" data-categories="aiml web3 systems">
+              <div class="flex flex-col sm:flex-row sm:items-start justify-between gap-2 mb-3">
+                <div>
+                  <div class="flex items-center gap-2 mb-1">
+                    <h3 class="font-serif text-2xl font-bold text-charcoal">EcoHub</h3>
+                    <span class="px-2 py-0.5 text-[10px] font-mono uppercase bg-oxblood text-white rounded-sm">Current Flagship</span>
+                  </div>
+                  <p class="text-xs uppercase font-medium tracking-wider text-slate">
+                    AI &amp; Blockchain Ecosystem Platform · Full-Stack Developer
+                  </p>
+                </div>
+                <div class="font-mono text-xs text-faint sm:text-right">
+                  March 2026 – Present
+                </div>
+              </div>
+
+              <div class="flex flex-wrap gap-1.5 my-3.5">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">2-Tiered EfficientNetV2 (96% Accuracy)</span>
+                <span class="tech-tag">BioCLIP Classification</span>
+                <span class="tech-tag">Marine Forecast (91%)</span>
+                <span class="tech-tag">Ethereum L2 ERC-20</span>
+                <span class="tech-tag">BFAR / PSA Datasets</span>
+              </div>
+
+              <ul class="mt-4 space-y-2 text-[14.5px] text-slate leading-relaxed">
+                <li class="flex items-start gap-2.5">
+                  <span class="text-oxblood font-bold select-none">—</span>
+                  <span><strong>Predictive ML Suite:</strong> Architected an integrated machine learning suite leveraging authorized BFAR and PSA Pangasinan datasets. Deployed a 2-stage coastal fishing catch forecasting model (91% predictive accuracy) to assist coastal fishermen in optimizing harvest routes, alongside agricultural grain-yield models (94% accuracy, R²=0.86), farmgate price forecasts across 140+ commodities (R²=0.81), and an aquaculture engine (R²=0.89).</span>
+                </li>
+                <li class="flex items-start gap-2.5">
+                  <span class="text-oxblood font-bold select-none">—</span>
+                  <span><strong>Computer Vision Pipeline:</strong> Built a 2-tiered EfficientNetV2 pipeline (96% accuracy) for environmental anomaly detection and integrated BioCLIP for automated flora and fauna classification.</span>
+                </li>
+                <li class="flex items-start gap-2.5">
+                  <span class="text-oxblood font-bold select-none">—</span>
+                  <span><strong>Decentralized Incentives:</strong> Implemented an ERC-20 token distribution architecture on an Ethereum Layer-2 network with backend verification services to reward crowdsourced environmental reporting.</span>
+                </li>
+              </ul>
+            </article>
+
+            <!-- Project 2: DigiChanger -->
+            <article class="project-card p-6 sm:p-7" data-categories="aiml web3 systems">
+              <div class="flex flex-col sm:flex-row sm:items-start justify-between gap-2 mb-3">
+                <div>
+                  <h3 class="font-serif text-2xl font-bold text-charcoal">DigiChanger</h3>
+                  <p class="text-xs uppercase font-medium tracking-wider text-slate">
+                    AI POS &amp; Digital Currency Exchange · Full-Stack Developer
+                  </p>
+                </div>
+                <div class="font-mono text-xs text-faint sm:text-right">
+                  January 2026
+                </div>
+              </div>
+
+              <div class="flex flex-wrap gap-1.5 my-3.5">
+                <span class="tech-tag">MERN Stack</span>
+                <span class="tech-tag">SARIMAX</span>
+                <span class="tech-tag">XGBoost</span>
+                <span class="tech-tag">Solidity</span>
+                <span class="tech-tag">Multi-tier RBAC</span>
+                <span class="tech-tag">2FA Security</span>
+              </div>
+
+              <ul class="mt-4 space-y-2 text-[14.5px] text-slate leading-relaxed">
+                <li class="flex items-start gap-2.5">
+                  <span class="text-oxblood font-bold select-none">—</span>
+                  <span><strong>Enterprise Digital Migration:</strong> Engineered a hybrid MERN-stack POS and currency exchange platform, transitioning manual paper bookkeeping to a hardened digital ecosystem that boosted daily operational efficiency.</span>
+                </li>
+                <li class="flex items-start gap-2.5">
+                  <span class="text-oxblood font-bold select-none">—</span>
+                  <span><strong>Revenue Optimization:</strong> Built a dynamic markup optimization pipeline utilizing SARIMAX and XGBoost time-series algorithms to forecast exchange volume trends and optimize spreads.</span>
+                </li>
+                <li class="flex items-start gap-2.5">
+                  <span class="text-oxblood font-bold select-none">—</span>
+                  <span><strong>Security Hardening:</strong> Secured digital asset bridges using Solidity smart contracts, granular multi-tier role-based access control (RBAC), and mandatory two-factor authentication.</span>
+                </li>
+              </ul>
+            </article>
+
+            <!-- Project 3: InnSight -->
+            <article class="project-card p-6 sm:p-7" data-categories="aiml systems">
+              <div class="flex flex-col sm:flex-row sm:items-start justify-between gap-2 mb-3">
+                <div>
+                  <h3 class="font-serif text-2xl font-bold text-charcoal">InnSight</h3>
+                  <p class="text-xs uppercase font-medium tracking-wider text-slate">
+                    Smart Hotel Management Platform · Full-Stack Developer
+                  </p>
+                </div>
+                <div class="font-mono text-xs text-faint sm:text-right">
+                  November 2025
+                </div>
+              </div>
+
+              <div class="flex flex-wrap gap-1.5 my-3.5">
+                <span class="tech-tag">MERN Ecosystem</span>
+                <span class="tech-tag">PayMongo Gateway</span>
+                <span class="tech-tag">Poisson Regression</span>
+                <span class="tech-tag">Holt-Winters Smoothing</span>
+                <span class="tech-tag">K-Means Clustering</span>
+                <span class="tech-tag">Gemini LLM Workers</span>
+              </div>
+
+              <ul class="mt-4 space-y-2 text-[14.5px] text-slate leading-relaxed">
+                <li class="flex items-start gap-2.5">
+                  <span class="text-oxblood font-bold select-none">—</span>
+                  <span><strong>Transaction Automation:</strong> Developed a complete hospitality management platform with PayMongo payment gateway integration, automating e-wallet transactions and audit logs.</span>
+                </li>
+                <li class="flex items-start gap-2.5">
+                  <span class="text-oxblood font-bold select-none">—</span>
+                  <span><strong>Predictive Analytics:</strong> Combined Poisson Regression, Holt-Winters exponential smoothing, and K-Means clustering for room demand forecasting, revenue markup management, and guest segmentation.</span>
+                </li>
+                <li class="flex items-start gap-2.5">
+                  <span class="text-oxblood font-bold select-none">—</span>
+                  <span><strong>Autonomous Summaries:</strong> Integrated Gemini-powered background task workers to synthesize complex statistical model outputs into natural language executive briefings.</span>
+                </li>
+              </ul>
+            </article>
+
+            <!-- Project 4: NENA AI -->
+            <article class="project-card p-6 sm:p-7" data-categories="aiml systems">
+              <div class="flex flex-col sm:flex-row sm:items-start justify-between gap-2 mb-3">
+                <div>
+                  <div class="flex items-center gap-2 mb-1">
+                    <h3 class="font-serif text-2xl font-bold text-charcoal">NENA AI</h3>
+                    <span class="px-2 py-0.5 text-[10px] font-mono uppercase bg-panelalt border border-hairline text-slate rounded-sm">Hackathon Build</span>
+                  </div>
+                  <p class="text-xs uppercase font-medium tracking-wider text-slate">
+                    BPI Data Wave Hackathon 2025 · Mobile Developer
+                  </p>
+                </div>
+                <div class="font-mono text-xs text-faint sm:text-right">
+                  September 2025
+                </div>
+              </div>
+
+              <div class="flex flex-wrap gap-1.5 my-3.5">
+                <span class="tech-tag">Android / Kotlin</span>
+                <span class="tech-tag">Financial Inclusion</span>
+                <span class="tech-tag">Real-time Profiling</span>
+                <span class="tech-tag">API Integration</span>
+              </div>
+
+              <ul class="mt-4 space-y-2 text-[14.5px] text-slate leading-relaxed">
+                <li class="flex items-start gap-2.5">
+                  <span class="text-oxblood font-bold select-none">—</span>
+                  <span><strong>Mobile Architecture:</strong> Engineered native, high-performance Android mobile interfaces for an AI-driven financial inclusion engine, streamlining onboarding flows.</span>
+                </li>
+                <li class="flex items-start gap-2.5">
+                  <span class="text-oxblood font-bold select-none">—</span>
+                  <span><strong>Pipeline Interfacing:</strong> Collaborated directly with machine learning engineers to connect client-side views with backend inference systems for instant risk profiling and loan recommendations.</span>
+                </li>
+              </ul>
+            </article>
+
+            <!-- Project 5: BrightSteps -->
+            <article class="project-card p-6 sm:p-7" data-categories="web3 systems">
+              <div class="flex flex-col sm:flex-row sm:items-start justify-between gap-2 mb-3">
+                <div>
+                  <h3 class="font-serif text-2xl font-bold text-charcoal">BrightSteps</h3>
+                  <p class="text-xs uppercase font-medium tracking-wider text-slate">
+                    Blockchain Crypto Loan Platform · Full-Stack Developer
+                  </p>
+                </div>
+                <div class="font-mono text-xs text-faint sm:text-right">
+                  March 2025
+                </div>
+              </div>
+
+              <div class="flex flex-wrap gap-1.5 my-3.5">
+                <span class="tech-tag">Kotlin Multiplatform</span>
+                <span class="tech-tag">PHP Orchestration</span>
+                <span class="tech-tag">Solidity Smart Contracts</span>
+                <span class="tech-tag">Ganache EVM</span>
+                <span class="tech-tag">Escrow Protocols</span>
+              </div>
+
+              <ul class="mt-4 space-y-2 text-[14.5px] text-slate leading-relaxed">
+                <li class="flex items-start gap-2.5">
+                  <span class="text-oxblood font-bold select-none">—</span>
+                  <span><strong>Cross-Platform Orchestration:</strong> Developed a decentralized crypto-lending system leveraging Kotlin Multiplatform for client mobile devices and PHP for backend service coordination.</span>
+                </li>
+                <li class="flex items-start gap-2.5">
+                  <span class="text-oxblood font-bold select-none">—</span>
+                  <span><strong>Trustless Escrow:</strong> Deployed Solidity smart contracts to enforce automated collateral validation, risk ratios, and trustless escrow release without central intermediaries.</span>
+                </li>
+                <li class="flex items-start gap-2.5">
+                  <span class="text-oxblood font-bold select-none">—</span>
+                  <span><strong>Gas &amp; State Optimization:</strong> Conducted end-to-end EVM testing with Ganache, optimizing contract execution states and minimizing transaction gas costs.</span>
+                </li>
+              </ul>
+            </article>
+
+          </div>
+        </section>
+
+        <!-- 05. Education & Honors -->
+        <section id="education" class="space-y-6">
+          <div class="flex items-center justify-between border-b border-hairline pb-2.5">
+            <span class="font-mono text-xs font-semibold uppercase tracking-widest text-oxblood">05 / Credentials</span>
+            <span class="text-xs text-faint font-mono">Academic Record</span>
+          </div>
+
+          <div class="space-y-6">
+            
+            <!-- Degree 1 -->
+            <div class="bg-panel fine-border p-6 sm:p-7">
+              <div class="flex flex-col sm:flex-row sm:items-start justify-between gap-1 mb-2">
+                <div>
+                  <h3 class="font-serif text-xl font-bold text-charcoal">PHINMA – University of Pangasinan</h3>
+                  <p class="text-sm font-medium text-slate">Bachelor of Science in Information Technology (Major in Computer Security)</p>
+                </div>
+                <span class="font-mono text-xs text-faint sm:text-right">2024 – Present</span>
+              </div>
+              
+              <div class="mt-4 pt-4 border-t border-hairline">
+                <div class="inline-flex items-center gap-2 text-xs font-semibold text-oxblood bg-panelalt border border-hairline px-3 py-1.5 rounded-sm">
+                  <span>★</span>
+                  <span>Best Application Development Project &amp; Best Web Development Project</span>
+                </div>
+                <p class="text-xs text-faint mt-1.5 font-mono">CITE Success Ladder &amp; Trojan Awards (2025)</p>
+              </div>
+            </div>
+
+            <!-- Degree 2 -->
+            <div class="bg-panel fine-border p-6 sm:p-7">
+              <div class="flex flex-col sm:flex-row sm:items-start justify-between gap-1">
+                <div>
+                  <h3 class="font-serif text-xl font-bold text-charcoal">University of the Philippines – Baguio</h3>
+                  <p class="text-sm font-medium text-slate">Bachelor of Arts in Language and Literature</p>
+                </div>
+                <span class="font-mono text-xs text-faint sm:text-right">2023 – 2024</span>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- Colophon / Footer -->
+        <footer class="pt-8 border-t border-hairline flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono text-faint">
+          <div>Rhyzhell Lorem Dela Cruz · Portfolio &amp; CV</div>
+          <div>Lingayen, Pangasinan, Philippines · 2026</div>
+        </footer>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Clipboard Toast -->
+  <div id="toast" class="toast-msg">Copied to clipboard</div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
